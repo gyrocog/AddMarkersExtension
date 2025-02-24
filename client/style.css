@@ -1,0 +1,25 @@
+body {
+    /*background-color: #1e1e1e; /* Dark like Premiere’s UI */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#addMarkersBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007acc; /* A nice blue */
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+#addMarkersBtn:hover {
+    background-color: #005f99; /* Darker blue on hover */
+}
+
+#addMarkersBtn:active{
+    background-color: #002e4b;
+}
